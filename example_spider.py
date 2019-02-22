@@ -15,6 +15,8 @@ class ExampleSpider(scrapy.Spider):
     start_urls = [
             'https://web.timetable.usyd.edu.au/menu.jsp?siteMap=true'
             ]
+    custom_settings = {
+            'ROBOTSTXT_OBEY': False}
 
     def __init__(self):
         # Count the number of pages crawled.
