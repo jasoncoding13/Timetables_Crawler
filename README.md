@@ -42,7 +42,7 @@ The spider can be ran by this command:
 scrapy crawl timetables -o timetables.json
 ```
 
-And it will regenerate a file `./timetables.json`, which is not contained in the repository on the Github.
+And it will regenerate a file `./timetables.json`, which is not contained in the repository on the GitHub.
 
 ### Parse
 
